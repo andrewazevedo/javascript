@@ -11,7 +11,6 @@ var animals = [
 //   return animal.name + " is a " + animal.species
 // })
 
-// using arrow functions (ES6)
 // map return a callback function
 var names = animals.map((animal) => animal.name)
 

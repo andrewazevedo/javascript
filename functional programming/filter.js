@@ -8,8 +8,12 @@ var animals = [
 ]
 
 // 'filter' function return true or false
-var dogs = animals.filter(function(animal) {
-	return animal.species === 'dog'
-})
+var dogs = animals.filter((animal) => animal.species === 'dog')
+
+// var dogs = []
+// for (var i = 0; i < animals.length; i++) {
+// 	if (animals[i].species === 'dog')
+// 		dogs.push(animals[i])
+// }
 
 console.log(dogs)
